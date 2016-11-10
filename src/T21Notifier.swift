@@ -8,24 +8,27 @@
 
 import UIKit
 
-@objc open class T21Notifier <ProtocolToImplement> {
+open class T21Notifier <ProtocolToImplement> {
     var mapTable = NSMapTable<AnyObject, AnyObject>(keyOptions: NSPointerFunctions.Options.weakMemory,
                                                     valueOptions: NSPointerFunctions.Options.weakMemory)
     
+    public init() {
+        
+    }
     
-    @objc open func addObserver(observer: AnyObject?) {
+    open func addObserver(observer: AnyObject?) {
         if let obs = observer as? ProtocolToImplement {
             mapTable.setObject(obs as AnyObject!, forKey: obs as AnyObject!)
         }
     }
     
-    @objc open func removeObserver(observer: AnyObject?) {
+    open func removeObserver(observer: AnyObject?) {
         if let obs = observer as? ProtocolToImplement {
             mapTable.removeObject(forKey: obs as AnyObject!)
         }
     }
     
-    @objc open func notify(send: (ProtocolToImplement) -> ()) {
+    open func notify(send: (ProtocolToImplement) -> ()) {
         for item in mapTable.objectEnumerator()! {
             if let obj = item as? ProtocolToImplement {
                 send(obj)
