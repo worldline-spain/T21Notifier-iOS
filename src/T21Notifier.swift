@@ -18,13 +18,13 @@ open class T21Notifier <ProtocolToImplement> {
     
     open func addObserver(observer: AnyObject?) {
         if let obs = observer as? ProtocolToImplement {
-            mapTable.setObject(obs as AnyObject!, forKey: obs as AnyObject!)
+            mapTable.setObject(obs as AnyObject?, forKey: obs as AnyObject?)
         }
     }
     
     open func removeObserver(observer: AnyObject?) {
         if let obs = observer as? ProtocolToImplement {
-            mapTable.removeObject(forKey: obs as AnyObject!)
+            mapTable.removeObject(forKey: obs as AnyObject?)
         }
     }
     
