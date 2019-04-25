@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362C125F2271C16D00A6797F /* T21NotifierLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 362C125D2271C16D00A6797F /* T21NotifierLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		362C12622271C16D00A6797F /* T21NotifierLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */; };
+		362C12632271C16D00A6797F /* T21NotifierLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		362C12682271C1AC00A6797F /* T21Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708C31DD4B06300C38022 /* T21Notifier.swift */; };
 		B98708A31DD4B02800C38022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708A21DD4B02800C38022 /* AppDelegate.swift */; };
 		B98708A51DD4B02800C38022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708A41DD4B02800C38022 /* ViewController.swift */; };
 		B98708A81DD4B02800C38022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98708A61DD4B02800C38022 /* Main.storyboard */; };
@@ -17,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		362C12602271C16D00A6797F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B98708971DD4B02800C38022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362C125A2271C16D00A6797F;
+			remoteInfo = T21NotifierLibrary;
+		};
 		B98708B41DD4B02800C38022 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B98708971DD4B02800C38022 /* Project object */;
@@ -26,7 +37,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		362C12672271C16D00A6797F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				362C12632271C16D00A6797F /* T21NotifierLibrary.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21NotifierLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362C125D2271C16D00A6797F /* T21NotifierLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21NotifierLibrary.h; sourceTree = "<group>"; };
+		362C125E2271C16D00A6797F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B987089F1DD4B02800C38022 /* T21Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Notifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98708A21DD4B02800C38022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98708A41DD4B02800C38022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,10 +69,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		362C12582271C16D00A6797F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B987089C1DD4B02800C38022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362C12622271C16D00A6797F /* T21NotifierLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362C125C2271C16D00A6797F /* T21NotifierLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				362C125D2271C16D00A6797F /* T21NotifierLibrary.h */,
+				362C125E2271C16D00A6797F /* Info.plist */,
+			);
+			path = T21NotifierLibrary;
+			sourceTree = "<group>";
+		};
 		B98708961DD4B02800C38022 = {
 			isa = PBXGroup;
 			children = (
 				B98708C21DD4B04A00C38022 /* src */,
 				B98708A11DD4B02800C38022 /* T21Notifier */,
 				B98708B61DD4B02800C38022 /* T21NotifierTests */,
+				362C125C2271C16D00A6797F /* T21NotifierLibrary */,
 				B98708A01DD4B02800C38022 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +119,7 @@
 			children = (
 				B987089F1DD4B02800C38022 /* T21Notifier.app */,
 				B98708B31DD4B02800C38022 /* T21NotifierTests.xctest */,
+				362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +156,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		362C12562271C16D00A6797F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362C125F2271C16D00A6797F /* T21NotifierLibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		362C125A2271C16D00A6797F /* T21NotifierLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362C12662271C16D00A6797F /* Build configuration list for PBXNativeTarget "T21NotifierLibrary" */;
+			buildPhases = (
+				362C12562271C16D00A6797F /* Headers */,
+				362C12572271C16D00A6797F /* Sources */,
+				362C12582271C16D00A6797F /* Frameworks */,
+				362C12592271C16D00A6797F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T21NotifierLibrary;
+			productName = T21NotifierLibrary;
+			productReference = 362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B987089E1DD4B02800C38022 /* T21Notifier */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B98708BC1DD4B02800C38022 /* Build configuration list for PBXNativeTarget "T21Notifier" */;
@@ -117,10 +193,12 @@
 				B987089B1DD4B02800C38022 /* Sources */,
 				B987089C1DD4B02800C38022 /* Frameworks */,
 				B987089D1DD4B02800C38022 /* Resources */,
+				362C12672271C16D00A6797F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				362C12612271C16D00A6797F /* PBXTargetDependency */,
 			);
 			name = T21Notifier;
 			productName = T21Notifier;
@@ -155,6 +233,11 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Worldline;
 				TargetAttributes = {
+					362C125A2271C16D00A6797F = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = C2UZU6ZLJE;
+						ProvisioningStyle = Automatic;
+					};
 					B987089E1DD4B02800C38022 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C2UZU6ZLJE;
@@ -185,11 +268,19 @@
 			targets = (
 				B987089E1DD4B02800C38022 /* T21Notifier */,
 				B98708B21DD4B02800C38022 /* T21NotifierTests */,
+				362C125A2271C16D00A6797F /* T21NotifierLibrary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		362C12592271C16D00A6797F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B987089D1DD4B02800C38022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,6 +301,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		362C12572271C16D00A6797F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362C12682271C1AC00A6797F /* T21Notifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B987089B1DD4B02800C38022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,6 +330,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		362C12612271C16D00A6797F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362C125A2271C16D00A6797F /* T21NotifierLibrary */;
+			targetProxy = 362C12602271C16D00A6797F /* PBXContainerItemProxy */;
+		};
 		B98708B51DD4B02800C38022 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B987089E1DD4B02800C38022 /* T21Notifier */;
@@ -258,6 +362,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		362C12642271C16D00A6797F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21NotifierLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21NotifierLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		362C12652271C16D00A6797F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21NotifierLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21NotifierLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B98708BA1DD4B02800C38022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,7 +539,9 @@
 		B98708BD1DD4B02800C38022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
 				INFOPLIST_FILE = T21Notifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -386,7 +555,9 @@
 		B98708BE1DD4B02800C38022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
 				INFOPLIST_FILE = T21Notifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +603,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		362C12662271C16D00A6797F /* Build configuration list for PBXNativeTarget "T21NotifierLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362C12642271C16D00A6797F /* Debug */,
+				362C12652271C16D00A6797F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B987089A1DD4B02800C38022 /* Build configuration list for PBXProject "T21Notifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
