@@ -55,7 +55,7 @@
 		362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21NotifierLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		362C125D2271C16D00A6797F /* T21NotifierLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21NotifierLibrary.h; sourceTree = "<group>"; };
 		362C125E2271C16D00A6797F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B987089F1DD4B02800C38022 /* T21Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Notifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B987089F1DD4B02800C38022 /* T21Notifier-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T21Notifier-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98708A21DD4B02800C38022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98708A41DD4B02800C38022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B98708A71DD4B02800C38022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		B98708A01DD4B02800C38022 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B987089F1DD4B02800C38022 /* T21Notifier.app */,
+				B987089F1DD4B02800C38022 /* T21Notifier-iOS.app */,
 				B98708B31DD4B02800C38022 /* T21NotifierTests.xctest */,
 				362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */,
 			);
@@ -186,9 +186,9 @@
 			productReference = 362C125B2271C16D00A6797F /* T21NotifierLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B987089E1DD4B02800C38022 /* T21Notifier */ = {
+		B987089E1DD4B02800C38022 /* T21Notifier-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B98708BC1DD4B02800C38022 /* Build configuration list for PBXNativeTarget "T21Notifier" */;
+			buildConfigurationList = B98708BC1DD4B02800C38022 /* Build configuration list for PBXNativeTarget "T21Notifier-iOS" */;
 			buildPhases = (
 				B987089B1DD4B02800C38022 /* Sources */,
 				B987089C1DD4B02800C38022 /* Frameworks */,
@@ -200,9 +200,9 @@
 			dependencies = (
 				362C12612271C16D00A6797F /* PBXTargetDependency */,
 			);
-			name = T21Notifier;
+			name = "T21Notifier-iOS";
 			productName = T21Notifier;
-			productReference = B987089F1DD4B02800C38022 /* T21Notifier.app */;
+			productReference = B987089F1DD4B02800C38022 /* T21Notifier-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B98708B21DD4B02800C38022 /* T21NotifierTests */ = {
@@ -266,7 +266,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B987089E1DD4B02800C38022 /* T21Notifier */,
+				B987089E1DD4B02800C38022 /* T21Notifier-iOS */,
 				B98708B21DD4B02800C38022 /* T21NotifierTests */,
 				362C125A2271C16D00A6797F /* T21NotifierLibrary */,
 			);
@@ -337,7 +337,7 @@
 		};
 		B98708B51DD4B02800C38022 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B987089E1DD4B02800C38022 /* T21Notifier */;
+			target = B987089E1DD4B02800C38022 /* T21Notifier-iOS */;
 			targetProxy = B98708B41DD4B02800C38022 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B98708BC1DD4B02800C38022 /* Build configuration list for PBXNativeTarget "T21Notifier" */ = {
+		B98708BC1DD4B02800C38022 /* Build configuration list for PBXNativeTarget "T21Notifier-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B98708BD1DD4B02800C38022 /* Debug */,

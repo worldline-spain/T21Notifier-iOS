@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B987089E1DD4B02800C38022"
-               BuildableName = "T21Notifier.app"
-               BlueprintName = "T21Notifier"
+               BuildableName = "T21Notifier-iOS.app"
+               BlueprintName = "T21Notifier-iOS"
                ReferencedContainer = "container:T21Notifier.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B987089E1DD4B02800C38022"
-            BuildableName = "T21Notifier.app"
-            BlueprintName = "T21Notifier"
+            BuildableName = "T21Notifier-iOS.app"
+            BlueprintName = "T21Notifier-iOS"
             ReferencedContainer = "container:T21Notifier.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B987089E1DD4B02800C38022"
-            BuildableName = "T21Notifier.app"
-            BlueprintName = "T21Notifier"
+            BuildableName = "T21Notifier-iOS.app"
+            BlueprintName = "T21Notifier-iOS"
             ReferencedContainer = "container:T21Notifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B987089E1DD4B02800C38022"
-            BuildableName = "T21Notifier.app"
-            BlueprintName = "T21Notifier"
+            BuildableName = "T21Notifier-iOS.app"
+            BlueprintName = "T21Notifier-iOS"
             ReferencedContainer = "container:T21Notifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
