@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "362C125A2271C16D00A6797F"
-               BuildableName = "T21NotifierLibrary.framework"
-               BlueprintName = "T21NotifierLibrary"
+               BlueprintIdentifier = "3F59F31D228AD4F000164434"
+               BuildableName = "T21Notifier.framework"
+               BlueprintName = "T21Notifier"
                ReferencedContainer = "container:T21Notifier.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "362C125A2271C16D00A6797F"
-            BuildableName = "T21NotifierLibrary.framework"
-            BlueprintName = "T21NotifierLibrary"
+            BlueprintIdentifier = "3F59F31D228AD4F000164434"
+            BuildableName = "T21Notifier.framework"
+            BlueprintName = "T21Notifier"
             ReferencedContainer = "container:T21Notifier.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "362C125A2271C16D00A6797F"
-            BuildableName = "T21NotifierLibrary.framework"
-            BlueprintName = "T21NotifierLibrary"
+            BlueprintIdentifier = "3F59F31D228AD4F000164434"
+            BuildableName = "T21Notifier.framework"
+            BlueprintName = "T21Notifier"
             ReferencedContainer = "container:T21Notifier.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
