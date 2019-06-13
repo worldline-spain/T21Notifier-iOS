@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import T21Notifier
+@testable import T21Notifier_iOS
 
 
 protocol MyNotifications {
