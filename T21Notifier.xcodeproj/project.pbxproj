@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4C136D22B2431700B48241 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C136C22B2431700B48241 /* Package.swift */; };
 		3F59F322228AD4F000164434 /* T21Notifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F59F320228AD4F000164434 /* T21Notifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F59F32B228AD54500164434 /* T21Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708C31DD4B06300C38022 /* T21Notifier.swift */; };
 		B98708A31DD4B02800C38022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708A21DD4B02800C38022 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F4C136C22B2431700B48241 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		3F59F31E228AD4F000164434 /* T21Notifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21Notifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F59F320228AD4F000164434 /* T21Notifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21Notifier.h; sourceTree = "<group>"; };
 		3F59F321228AD4F000164434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		B98708961DD4B02800C38022 = {
 			isa = PBXGroup;
 			children = (
+				3F4C136C22B2431700B48241 /* Package.swift */,
 				B98708C21DD4B04A00C38022 /* src */,
 				B98708A11DD4B02800C38022 /* T21Notifier */,
 				B98708B61DD4B02800C38022 /* T21NotifierTests */,
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4C136D22B2431700B48241 /* Package.swift in Sources */,
 				B98708A51DD4B02800C38022 /* ViewController.swift in Sources */,
 				B98708A31DD4B02800C38022 /* AppDelegate.swift in Sources */,
 				B98708C41DD4B06300C38022 /* T21Notifier.swift in Sources */,
